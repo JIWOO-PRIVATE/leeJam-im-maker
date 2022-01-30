@@ -5,6 +5,7 @@ import TextInput01 from'./TextInput01';
 import TextInput02 from'./TextInput02';
 import TextInput03 from'./TextInput03';
 import FrontImage from './img/Front.jpg'
+import { Helmet } from 'react-helmet'
 
 import styles from './App.css';
 import DownloadImage from './DownloadImage';
@@ -267,6 +268,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <div>
+        <Helmet>
+          <title>#대선나도한마디 챌린지</title>
+        </Helmet>
+        </div>
         <img src = {FrontImage} style={{
         display:'inline-block',
         width:'900px',
