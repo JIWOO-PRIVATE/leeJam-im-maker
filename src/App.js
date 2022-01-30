@@ -201,7 +201,7 @@ class App extends React.Component {
       ctx.lineWidth = 2;
       this.setFont(canvas, text01,3,60,fontFamily01,'center',canvas.width / 2);
       this.setFont(canvas, text02,1.8,60,fontFamily01,'center',canvas.width / 2);
-      this.setFont(canvas, text03,1.2,30,fontFamily02,'left',canvas.width *0.7);
+      this.setFont(canvas, text03,1.2,30,fontFamily02,'center',canvas.width *0.8);
 
     }
   }
